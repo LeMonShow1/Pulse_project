@@ -1,15 +1,18 @@
-var name = "Damir";
-
-let number = 7;
-const pi = 3.14;
-
-number = 4;
-pi = 5;
-
-let leftBorderWidth = 200;
-
-//number
-//string - "", '', ``
-//true/false
-//null
-//undefined
+$(document).ready(function () {
+  $(".carousel__inner").slick({
+    speed: 500,
+    prevArrow:
+      '<button type="button" class="slick-next"><img src="../icons/chevron left solid.svg"></button>',
+    nextArrow:
+      '<button type="button" class="slick-prev"><img src="../icons/chevron right solid.svg"></button>',
+    responsive: [
+      {
+        breakpoint: 992,
+        settings: {
+          dots: true,
+          arrows: false,
+        },
+      },
+    ],
+  });
+});
