@@ -6,7 +6,8 @@
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css" />
     <link rel="stylesheet" href="css/fonts.css" />
-    <link rel="stylesheet" href="css/slick.css">
+    <!-- <link rel="stylesheet" href="css/slick.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
     <link rel="stylesheet" href="css/blocks/style.min.css" />
   </head>
   <body>
@@ -95,8 +96,9 @@
             <div class="advantages__subtitle">Учим бегать</div>
 
             <div class="advantages__descr">
-              Помогаем с обучением правильной технике бега!<br> Дружим с крупнейшей
-              школой бега в России - <a href="#">I LOVE RUNNING</a>.
+              Помогаем с обучением правильной технике бега!<br />
+              Дружим с крупнейшей школой бега в России -
+              <a href="#">I LOVE RUNNING</a>.
             </div>
           </div>
         </div>
@@ -105,12 +107,18 @@
 
     <section class="consultation">
       <div class="container">
-        <h2 class="title title_left">Получите бесплатную консультацию<br> по подбору пульсометра</h2>
-        <div class="consultation__descr">Просто заполните форму заявки<br> и мы перезвоним вам в течении 10 минут</div>
+        <h2 class="title title_left">
+          Получите бесплатную консультацию<br />
+          по подбору пульсометра
+        </h2>
+        <div class="consultation__descr">
+          Просто заполните форму заявки<br />
+          и мы перезвоним вам в течении 10 минут
+        </div>
         <form class="feed-form" action="#">
-          <input name="name" required placeholder="Ваше имя" type="text">
-          <input name="phone" required placeholder="Ваш телефон" type="tel">
-          <input name="email" required placeholder="Ваш E-mail" type="email">
+          <input name="name" required placeholder="Ваше имя" type="text" />
+          <input name="phone" required placeholder="Ваш телефон" type="tel" />
+          <input name="email" required placeholder="Ваш E-mail" type="email" />
           <button class="button button_submit">заказать кОНСУЛЬТАЦИЮ</button>
         </form>
       </div>
@@ -120,21 +128,28 @@
       <div class="container">
         <div class="carousel__inner">
           <div>
-            <img src="img/carousel/slide1.png" alt="slide">
+            <img src="img/carousel/slide1.png" alt="slide" />
           </div>
           <div>
-            <img src="img/carousel/slide2.png" alt="slide">
+            <img src="img/carousel/slide2.png" alt="slide" />
           </div>
           <div>
-            <img src="img/carousel/slide3.png" alt="slide">
+            <img src="img/carousel/slide3.png" alt="slide" />
           </div>
         </div>
+        <button type="button" class="next">
+          <img src="../icons/chevron right solid.svg" />
+        </button>
+        <button type="button" class="prev">
+          <img src="../icons/chevron left solid.svg" />
+        </button>
       </div>
     </section>
-    
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+    <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script src="js/slick.min.js"></script>
+    <script src="js/slick.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
